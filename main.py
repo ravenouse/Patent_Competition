@@ -34,7 +34,7 @@ def get_parser(
         "--device",
         type=torch.device,
         default=torch.device("cuda" if torch.cuda.is_available() else "cpu"),
-        help="path to the train file",
+        help="device to run the experiment",
     )
     parser.add_argument(
         "--model_name",
@@ -121,7 +121,6 @@ def train(args):
 
     # set up the datasets
     train_df = pd.read_csv(args.train_file)
-#     train_df['input'] = train_df['anchor']
     train_df, va_df = train_test_split(train_df, test_size=0.2, random_state=42)
     tr_dataset = TrainDataset(train_df,tokenizer)
     va_dataset = TrainDataset(va_df,tokenizer)
