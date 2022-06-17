@@ -3,7 +3,7 @@
 
 #### Zhiyong Wang, Karan Praharaj
 
-#### Please check the [MLProject_Wang_Praharaj.ipynb]([url](https://github.com/ravenouse/Patent_Competition/blob/main/MLProject_Wang_Praharaj.ipynb)) for detailed report about this project.
+#### Please check the [MLProject_Wang_Praharaj.ipynb](https://github.com/ravenouse/Patent_Competition/blob/main/MLProject_Wang_Praharaj.ipynb) for detailed report about this project.
 
 ## General
 The **main.py** is our python code. <br>
