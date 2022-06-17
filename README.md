@@ -3,6 +3,8 @@
 
 #### Zhiyong Wang, Karan Praharaj
 
+#### Please check the [MLProject_Wang_Praharaj.ipynb]([url](https://github.com/ravenouse/Patent_Competition/blob/main/MLProject_Wang_Praharaj.ipynb)) for detailed report about this project.
+
 ## General
 The **main.py** is our python code. <br>
 The **run.sh** is how we submit sbatch request on CU Research Server. and where we can pass different parameters for the experiments,<br> 
